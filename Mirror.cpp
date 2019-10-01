@@ -65,7 +65,7 @@ void Mirror::mirror(){
     }
     int counter=1;
     int neighbors=0;
-    while(true){
+    while(counter<2000){
         //function outputs in different ways depending on what the user wanted
       if(enter==true){
         cin.ignore();
