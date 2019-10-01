@@ -9,19 +9,19 @@ int main(int argc,char **argv)
   string mode;
   cout<<"What mode would you like to play, classic, donut or mirror? "<<endl;
   cin>>mode;
-  if(mode=="classic"){
+  if(mode=="classic"|| mode=="Classic"){
     Classic classic;
     //within the classic class, the grid class is called so by declaring the classic class, we are declaring the grid class
     classic.classic();
     //calls the classic function within the classic class which is explained in the classic.h file
   }
-  else if(mode=="donut"){
+  else if(mode=="donut"||mode=="Donut"){
     Donut donut;
     //within the donut class, the grid class is called so by declaring the donut class, we are declaring the grid class
     donut.donut();
     //calls the donut function which is explained in the donut.h file
   }
-  else if(mode=="mirror"){
+  else if(mode=="mirror"||mode=="Mirror"){
     Mirror mirror;
     //within the mirror class, the grid class is called so by declaring the mirror class, we are declaring the grid class
     mirror.mirror();
